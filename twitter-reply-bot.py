@@ -1,5 +1,4 @@
 import tweepy
-from airtable import Airtable
 from datetime import datetime, timedelta
 # from langchain.chat_models import ChatOpenAI
 # from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
