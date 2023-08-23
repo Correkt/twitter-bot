@@ -18,13 +18,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load your Twitter and Airtable API keys (preferably from environment variables, config file, or within the railyway app)
+MONGO_URI = os.getenv("MONGO_URI", "YourKey")
 TWITTER_API_KEY = os.getenv("TWITTER_API_KEY", "YourKey")
 TWITTER_API_SECRET = os.getenv("TWITTER_API_SECRET", "YourKey")
 TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN", "YourKey")
 TWITTER_ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET", "YourKey")
 TWITTER_BEARER_TOKEN = os.getenv("TWITTER_BEARER_TOKEN", "YourKey")
-
-MONGO_URI = os.getenv("MONGO_URI", "YourKey")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "YourKey")
 
